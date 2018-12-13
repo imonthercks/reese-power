@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Reese Power</title>
-    <link>https://imonthercks.github.io/reese-power/tags/</link>
+    <link>https://reese-power.com/tags/</link>
     <description>Recent content in Tags on Reese Power</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://imonthercks.github.io/reese-power/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://reese-power.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
