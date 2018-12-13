@@ -1,0 +1,9 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "osprey"
+
+[Params]
+  tagline = "Coming soon..."
+  logoBig = "/images/reese power2.png"
+  customCSS = false
