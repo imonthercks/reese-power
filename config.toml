@@ -1,9 +1,28 @@
-baseURL = "https://reese-power.com/"
-languageCode = "en-us"
 title = "Reese Power"
-theme = "osprey"
+baseURL = "https://reese-power.com/"
+tags = ["portfolio"]
+languageCode = "en-us"
+config = "config.toml"
+theme = "reesepower"
+canonifyURLS = true
+disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
+
 
 [Params]
-  tagline = "Coming soon..."
+  tagline = "Choose JOY!"
   logoBig = "/images/reese power2.png"
+  logoSmall = "/images/reese power2.png"
   customCSS = false
+
+  # Choose either Formspree contact form or Basin contact form
+  ajaxBasin = "https://usebasin.com/f/e6997eab482a"
+
+[[menu.main]]
+  name = "Events"
+  url  = "/#events"
+  weight = 1  
+
+[[menu.main]]
+  name = "Contact"
+  url  = "/#contact"
+  weight = 2
