@@ -6,6 +6,7 @@ config = "config.toml"
 theme = "reesepower"
 canonifyURLS = true
 disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
+publishDir = "docs"
 
 
 [Params]
