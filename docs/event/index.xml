@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on Reese Power</title>
+    <link>https://reese-power.com/event/</link>
+    <description>Recent content in Events on Reese Power</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Dec 2018 10:52:16 -0600</lastBuildDate>
+    
+	<atom:link href="https://reese-power.com/event/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Testevent</title>
+      <link>https://reese-power.com/event/testevent/</link>
+      <pubDate>Sat, 22 Dec 2018 10:52:16 -0600</pubDate>
+      
+      <guid>https://reese-power.com/event/testevent/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

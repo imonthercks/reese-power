@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://reese-power.com/event/testevent/</loc>
+    <lastmod>2018-12-22T10:52:16-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://reese-power.com/gallery/bleachers/</loc>
     <lastmod>2018-12-13T17:47:09-06:00</lastmod>
   </url>
@@ -14,7 +19,13 @@
   
   <url>
     <loc>https://reese-power.com/</loc>
-    <lastmod>2018-12-13T17:47:09-06:00</lastmod>
+    <lastmod>2018-12-22T10:52:16-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://reese-power.com/event/</loc>
+    <lastmod>2018-12-22T10:52:16-06:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
