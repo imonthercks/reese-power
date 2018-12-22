@@ -1,7 +1,7 @@
 +++
 title = "{{ replace .TranslationBaseName "-" " " | title }}"
 date = {{ .Date }}
-name = ""
+description = ""
 image = ""
 alt = ""
 fundraisinglink = ""

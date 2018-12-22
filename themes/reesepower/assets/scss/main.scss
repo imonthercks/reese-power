@@ -234,6 +234,27 @@ h1, h2, h3 {
     }
   }
 }
+.teammate {
+  background-color: $smoke;
+
+  .teammate-row {
+    padding-bottom: 0;
+    margin-bottom: 5px;
+    .teammate-name {
+      float: left;
+      font-size: 30px;
+    }
+    img {
+      max-height: 200px;
+      margin: 0 10px;
+      float: right;
+    }
+    .teammate-link {
+      padding: 15px 15px;
+      font-size: 18px;
+    }
+  }
+}
 .gallery {
   div[class^="col-"], div[class*=" col-"] {
     padding: 0;
