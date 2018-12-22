@@ -30,11 +30,6 @@
   }
 }
 
-@keyframes "blink" {
-  from, to { color: transparent; }
-  50% { color: $black; }
-}
-
 nav {
   height: $vertical-rhythm * 2;
   width: 100%;
