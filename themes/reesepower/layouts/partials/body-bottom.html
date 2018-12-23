@@ -1,8 +1,4 @@
-{{ if .IsHome }}
   {{ $indexJs := resources.Get "scripts/index.js" | resources.Minify }}
   <script src="{{ $indexJs.Permalink }}" type="text/javascript"></script>
   {{ $contactJs := resources.Get "scripts/contact.js" | resources.ExecuteAsTemplate "scripts/contact.js" . | resources.Minify }}
     <script src="{{ $contactJs.Permalink }}" type="text/javascript"></script>
-{{ else }}
-  <script src="/scripts/{{ if .Site.Params.cacheBustJS }}{{ index .Site.Data.cachedAssets "main.js" }}{{ else }}main.min.js{{ end }}" type="text/javascript"></script>
-{{ end }}

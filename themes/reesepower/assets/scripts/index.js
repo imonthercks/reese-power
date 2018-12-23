@@ -1,6 +1,6 @@
-(function() {
-  var $ = document.querySelector.bind(document),
-      $$ = document.querySelectorAll.bind(document),
+ (function() {
+   var $ = document.querySelector.bind(document),
+       $$ = document.querySelectorAll.bind(document),
 
       toggle = function(el) {
         // If element is visible, hide it
@@ -61,6 +61,15 @@
     })
   })
 
+    // Fix logoBig drawing over nav when click on logoSmall while nav open
+  $('.logo').addEventListener('click', function() {
+    if ($('.nav-full').classList.contains('active')) {
+      $$('.nav-full, main').forEach(function(el) {
+        el.classList.toggle('active')
+      })
+    }
+  })
+
   // Disable scroll when full screen nav is open
   $('body').addEventListener('click', function() {
     if ($('.nav-full').classList.contains('active')) {
@@ -93,4 +102,4 @@
   $$('header').forEach(function() {
     fullMobileViewport
   })
-})()
+ })()
