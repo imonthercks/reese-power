@@ -16,6 +16,7 @@ $('.nav-icon').addEventListener('click',function(){$$('.nav-full, main').forEach
 this.querySelector('img').classList.toggle('img')})
 $$('.nav-full a').forEach(function(links){links.addEventListener('click',function(){$$('.nav-full, main').forEach(function(el){el.classList.toggle('active')})
 this.querySelector('nav-icon').classList.toggle('nav-icon')})})
+$('.logo').addEventListener('click',function(){if($('.nav-full').classList.contains('active')){$$('.nav-full, main').forEach(function(el){el.classList.toggle('active')})}})
 $('body').addEventListener('click',function(){if($('.nav-full').classList.contains('active')){$('html').style.overflowY='hidden'}else{$('html').style.overflowY='scroll'}})
 function fullMobileViewport(){var element=this,viewportHeight=window.innerHeight,heightChangeTolerance=100
 $(window).resize(function(){if(Math.abs(viewportHeight-window.innerHeight)>heightChangeTolerance){viewportHeight=window.innerHeight
