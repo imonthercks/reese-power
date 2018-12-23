@@ -57,7 +57,7 @@
       $$('.nav-full, main').forEach(function(el) {
         el.classList.toggle('active')
       })
-      this.querySelector('nav-icon').classList.toggle('nav-icon')
+      //this.querySelector('nav-icon').classList.toggle('nav-icon')
     })
   })
 
