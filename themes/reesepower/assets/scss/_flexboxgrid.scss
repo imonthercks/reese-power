@@ -643,6 +643,9 @@
   .last-md {
     order: 1;
   }
+  section {
+    min-height: 680px;
+  }
 }
 @media only screen and(min-width: 75em) {
   .container {

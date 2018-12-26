@@ -28,10 +28,20 @@
       max-width: 50% !important;
     }
   }
+  hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 100%;
+  }
 }
 
 nav {
-  height: $vertical-rhythm * 2;
+  height: $vertical-rhythm * 3;
   width: 100%;
   background-color: #FFF;
   position: absolute;
@@ -49,7 +59,7 @@ nav {
   img {
     display: inline-block;
     max-width: 10em;
-    max-height: 2.5em;
+    max-height: $vertical-rhythm * 3 + .5;
     vertical-align: middle;
   }
   div.logo, div.nav-toggle {
@@ -58,6 +68,9 @@ nav {
   }
   .nav-toggle a {
     display: none;
+  }
+  .nav-icon img {
+    max-height: $vertical-rhythm;
   }
 }
 .nav-fixed {
@@ -226,10 +239,7 @@ h1, h2, h3 {
       padding: 0 15px;
     }
     .event-link {
-      h5 {
-        float: right;
-      }
-      padding: 0 15px;
+      padding: 10px 15px;
       font-size: 18px;
     }
   }

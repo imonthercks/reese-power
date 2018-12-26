@@ -6,4 +6,5 @@ image = ""
 alt = ""
 fundraisinglink = ""
 draft = true
+address = ""
 +++
