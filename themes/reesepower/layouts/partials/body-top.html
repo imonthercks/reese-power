@@ -1,23 +1,24 @@
-{{ if .Site.Params.googleTagManager }}
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ .Site.Params.googleTagManager }}"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-{{ end }}
-
 {{ if .IsHome }}
-  <header class="row middle-xs center-xs">
-    <div class="col-xs-12">
-      <div class="row middle-xs center-xs">
+  <header class="row top-xs middle-md center-xs">
+    <div class="col-xs-12 col-md-7">
+      <div class="row top-xs middle-md center-xs">
         <div class="col-xs-12"><img src="{{ .Site.Params.logoBig}}" alt="{{ .Site.Title }}"></div>
       </div>
-      <div class="row middle-xs center-xs">
+      <div class="row top-xs center-xs">
         <div class="col-xs-12">
-          <h1>{{ .Site.Params.tagline }}</h1>
+          <div class="home-tagline">{{ .Site.Params.tagline }}</div>
         </div>
       </div>
     </div>
-  </header>
+    <div class="col-xs-12 col-md-5 tshirt-container">
+      <div class="row bottom-xs middle-md center-xs tshirt-container">
+        <div class="col-xs-12">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdpxxf09J8BbGHzngaGNYizwsvgJ9KZrciIdpE1thZWtKY2cg/viewform?vc=0&c=0&w=1&usp=mail_form_link">Click Here to order your shirt today!</a>
+            <img src="/images/reese-power-tshirt.png">
+        </div>
+      </div>
+    </div>
+</header>
 {{ end }}
 
 <nav class="row middle-xs center-xs">

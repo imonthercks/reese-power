@@ -31,7 +31,8 @@ $font-scale-small: (
   h3: 1.25rem,
   p: 1rem,
   list-header: 16px,
-  list-sub-header: 14px
+  list-sub-header: 14px,
+  home-tagline: 18px
 );
 
 $base-line-height: 1.6;
@@ -70,5 +71,10 @@ h3 {
 
 .list-sub-header {
   @include size(list-sub-header);
+  font-weight: bold;
+}
+
+.home-tagline {
+  @include size(home-tagline);
   font-weight: bold;
 }
