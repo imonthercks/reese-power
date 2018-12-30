@@ -22,6 +22,7 @@
 @media(max-width: 25em) {
   body .container {
     padding: $vertical-rhythm * 2 $vertical-rhythm;
+    text-align: center;
   }
   nav {
     div.logo, div.nav-toggle {
@@ -246,7 +247,7 @@ h1, h2, h3 {
     }
     img {
       max-height: 200px;
-      max-width: 250px;
+      max-width: 200px;
       margin: 0 10px;
       float: left;
 
