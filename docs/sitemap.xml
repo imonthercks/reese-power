@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://reese-power.com/event/quartermania/</loc>
+    <lastmod>2018-12-29T00:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://reese-power.com/teammate/whitney-stanton/</loc>
     <lastmod>2018-12-22T22:12:01-06:00</lastmod>
   </url>
@@ -53,8 +58,8 @@
   </url>
   
   <url>
-    <loc>https://reese-power.com/event/testevent/</loc>
-    <lastmod>2018-12-22T10:52:16-06:00</lastmod>
+    <loc>https://reese-power.com/event/paintingpower/</loc>
+    <lastmod>2018-12-20T16:00:00-06:00</lastmod>
   </url>
   
   <url>
@@ -69,12 +74,12 @@
   
   <url>
     <loc>https://reese-power.com/</loc>
-    <lastmod>2018-12-22T22:12:01-06:00</lastmod>
+    <lastmod>2018-12-29T00:00:00-06:00</lastmod>
   </url>
   
   <url>
     <loc>https://reese-power.com/event/</loc>
-    <lastmod>2018-12-22T10:52:16-06:00</lastmod>
+    <lastmod>2018-12-29T00:00:00-06:00</lastmod>
     <priority>0</priority>
   </url>
   
