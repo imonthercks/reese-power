@@ -19,6 +19,7 @@ nav {
     padding: $vertical-rhythm * 2 $vertical-rhythm;
   }
   nav {
+    z-index: 100;
     // Hide menu links between logo and hamburger menu
     div:not(:first-child):not(:last-child) {
       display: none;
@@ -37,7 +38,7 @@ nav {
     text-align: center;
   }
   nav {
-    z-index: inherit;
+    z-index: 100;
     div.logo, div.nav-toggle {
       max-width: 50% !important;
     }
