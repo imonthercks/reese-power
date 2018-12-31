@@ -16,7 +16,7 @@ publishDir = "docs"
   customCSS = false
 
   # Choose either Formspree contact form or Basin contact form
-  ajaxBasin = "https://usebasin.com/f/e6997eab482a"
+  ajaxBasin = "https://usebasin.com/f/fb09bd68fea8"
 
 [[menu.main]]
   name = "Donate"
