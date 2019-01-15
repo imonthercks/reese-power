@@ -1,0 +1,18 @@
+<section class="gallery" id="gallery">
+    {{ $gallery := (where .Site.RegularPages "Section" "gallery") }}
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-12">
+                <h1>Gallery:</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div id="image-gallery-1" class="cf">
+                {{ range $gallery }}
+                <img src="images/gallery/{{ .Params.thumb }}" data-high-res-img="images/gallery/{{ .Params.image }}"
+                    alt="{{ .Params.alt }}" class="gallery-items">
+                {{ end }}
+                <div></div>
+            </div>
+        </div>
+</section>

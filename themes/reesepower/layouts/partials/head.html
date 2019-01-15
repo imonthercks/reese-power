@@ -70,6 +70,7 @@
       <meta name="theme-color" content="#FFF">
     {{ end }}
   
+    <link rel="stylesheet" href="/css/imageviewer.css" type="text/css">
     <link rel="canonical" href="{{ .Permalink }}">
   
     {{ if .RSSLink }}
@@ -96,5 +97,11 @@
     {{ if .Site.GoogleAnalytics }}
       {{ template "_internal/google_analytics.html" . }}
     {{ end }}
+    <style>
+      .gallery img{
+        display: inline;
+        padding: 1rem;  
+      }
+    </style>
   </head>
   

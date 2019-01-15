@@ -8,6 +8,9 @@
       <!-- Donate -->
       {{ partial "teammate.html" . }}
 
+      <!-- Gallery -->
+      {{ partial "gallery.html" . }}
+
       <!-- Event -->
       {{ partial "event.html" . }}
 
@@ -17,5 +20,19 @@
     </main>
     {{ partial "footer.html" . }}
     {{ partial "body-bottom.html" . }}
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="/js/imageviewer.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(function () {
+        var viewer = ImageViewer();
+        $('.gallery-items').click(function () {
+            var imgSrc = this.src,
+                highResolutionImage = $(this).data('high-res-img');
+     
+            viewer.show(imgSrc, highResolutionImage);
+        });
+    });
+      </script>
   </body>
 </html>
