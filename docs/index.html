@@ -33,6 +33,7 @@
   
     
   
+    <link rel="stylesheet" href="https://reese-power.com/css/imageviewer.css" type="text/css">
     <link rel="canonical" href="https://reese-power.com/">
   
     
@@ -49,6 +50,12 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">    
     
     
+    <style>
+      .gallery img{
+        display: inline;
+        padding: 1rem;  
+      }
+    </style>
   </head>
   
   <body>
@@ -85,6 +92,10 @@
       </div>
     
       <div class="col-xs-3 col-sm-2">
+        <h3><a href="https://reese-power.com/#gallery">Gallery</a></h3>
+      </div>
+    
+      <div class="col-xs-3 col-sm-2">
         <h3><a href="https://reese-power.com/#event">Events</a></h3>
       </div>
     
@@ -102,6 +113,8 @@
     <div class="row middle-xs center-xs">
       
         <div class="col-xs-12"><h1><a href="https://reese-power.com/#teammate">Donate</a></h1></div>
+      
+        <div class="col-xs-12"><h1><a href="https://reese-power.com/#gallery">Gallery</a></h1></div>
       
         <div class="col-xs-12"><h1><a href="https://reese-power.com/#event">Events</a></h1></div>
       
@@ -282,6 +295,41 @@
             
 
       
+      <section class="gallery" id="gallery">
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-12">
+                <h1>Gallery:</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div id="image-gallery-1" class="cf">
+                
+                <img src="images/gallery/Candidates_thumb.JPG" data-high-res-img="images/gallery/Candidates.JPG"
+                    alt="Candidates" class="gallery-items">
+                
+                <img src="images/gallery/Reese_family_thumb.jpg" data-high-res-img="images/gallery/Reese_family.jpg"
+                    alt="Family" class="gallery-items">
+                
+                <img src="images/gallery/Reese_Audrey_and_Isabella_on_bench_thumb.jpg" data-high-res-img="images/gallery/Reese_Audrey_and_Isabella_on_bench.JPG"
+                    alt="Girls on the bench" class="gallery-items">
+                
+                <img src="images/gallery/bleachers_thumb.png" data-high-res-img="images/gallery/bleachers.png"
+                    alt="Girls on the bleachers" class="gallery-items">
+                
+                <img src="images/gallery/Reese_thumb.jpg" data-high-res-img="images/gallery/Reese.JPG"
+                    alt="Reese" class="gallery-items">
+                
+                <img src="images/gallery/students_of_the_year_thumb.jpg" data-high-res-img="images/gallery/students_of_the_year.jpg"
+                    alt="Student of the Year" class="gallery-items">
+                
+                <div></div>
+            </div>
+        </div>
+</section>
+
+      
       <section class="event" id="event">
 <div class="container">
         <div class="row">
@@ -375,5 +423,19 @@
   
     <script src="https://reese-power.com/scripts/contact.min.js" type="text/javascript"></script>
 
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="https://reese-power.com/js/imageviewer.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(function () {
+        var viewer = ImageViewer();
+        $('.gallery-items').click(function () {
+            var imgSrc = this.src,
+                highResolutionImage = $(this).data('high-res-img');
+     
+            viewer.show(imgSrc, highResolutionImage);
+        });
+    });
+      </script>
   </body>
 </html>
