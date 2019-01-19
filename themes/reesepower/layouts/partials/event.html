@@ -25,8 +25,10 @@
                             <div class="event-description">{{ .Params.description }}</div>
                         </div>
                         <div class="col-md-4 col-xs-12">
-                            {{ if .Params.link }}<div class="col-xs-6"><h5><a target="_blank" href="{{ .Params.link }}">More Details <i class="fas fa-external-link-alt"></i></a></h5></div>{{ end }}
-                            {{ if .Params.address }}<div class="col-xs-6"><h5><a target="_blank" href="https://www.google.com/maps/dir//{{ .Params.address }},{{ .Params.city }},{{ .Params.state }} {{.Params.zip}}">Map <i class="fas fa-map-marked-alt"></i></a></h5></div>{{ end }}
+                            <div class="row">
+                                {{ if .Params.link }}<div class="col-xs-6"><a target="_blank" href="{{ .Params.link }}">Details <i class="fas fa-external-link-alt"></i></a></div>{{ end }}
+                                {{ if .Params.address }}<div class="col-xs-6"><a target="_blank" href="https://www.google.com/maps/dir//{{ .Params.address }},{{ .Params.city }},{{ .Params.state }} {{.Params.zip}}">Map <i class="fas fa-map-marked-alt"></i></a></div>{{ end }}
+                            </div>
                         </div>
                     </div>
                     <hr />
