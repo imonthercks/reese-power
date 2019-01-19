@@ -9,5 +9,9 @@ image = "chipotle-give-back.png"
 alt = "Chipoltle Give Back Night"
 link = "/images/chipotle-give-back-ad.jpg"
 draft = false
-address = "1700 North Rock Rd, Suite 300 in Derby"
+location = "Chipotle - Derby"
+address = "1700 North Rock Rd, Suite 300"
+city = "Derby"
+state = "KS"
+zip = ""
 +++

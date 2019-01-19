@@ -9,5 +9,6 @@ image = ""
 alt = ""
 link = ""
 draft = true
+location = ""s
 address = ""
 +++

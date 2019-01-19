@@ -9,5 +9,8 @@ image = "quartermania.jpg"
 alt = "Quartermania Power"
 link = "https://www.facebook.com/events/2280959308805926/"
 draft = false
-address = ""
+location = "Rose Hill Rec Center"
+address = "400 S. Rose Hill Rd."
+city = "Rose Hill"
+state = "KS"
 +++

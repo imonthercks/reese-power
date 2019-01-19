@@ -13,14 +13,20 @@
             <div class="col-md-12 col-xs-12">
                 {{ range $sorted }}
                     <div class="row">
-                        <div class="col-md-12 col-xs-12 event-row">
+                        <div class="col-md-3 col-xs-12">
                             <img src="/images/{{ .Params.image}}" {{ if .Params.alt }}alt="{{ .Params.alt }}"{{ end }}>
-                            <div class="list-sub-header">{{ dateFormat "Monday, Jan 2, 2006" .Params.startDate }}</div>
+                        </div>
+                        <div class="col-md-5 col-xs-12">
+                            <div class="list-sub-header">{{ dateFormat "Monday, Jan 2, 2006 - 3 PM" .Params.startDate }} </div>
                             <div class="list-header">{{ .Title }}</div>
+                            <div>{{ .Params.location }}</div>
+                            <div>{{ .Params.address }}</div>
+                            <div>{{ .Params.city }}, {{ .Params.state }} {{ .Params.zip }}</div>
                             <div class="event-description">{{ .Params.description }}</div>
-                            <div class="event-link">
-                                {{ if .Params.link }}<div class="col-xs-12 col-md-12"><h5><a target="_blank" href="{{ .Params.link }}">More Details <i class="fas fa-external-link-alt"></i></a></h5></div>{{ end }}
-                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12">
+                            {{ if .Params.link }}<div class="col-xs-6"><h5><a target="_blank" href="{{ .Params.link }}">More Details <i class="fas fa-external-link-alt"></i></a></h5></div>{{ end }}
+                            {{ if .Params.address }}<div class="col-xs-6"><h5><a target="_blank" href="https://www.google.com/maps/dir//{{ .Params.address }},{{ .Params.city }},{{ .Params.state }} {{.Params.zip}}">Map <i class="fas fa-map-marked-alt"></i></a></h5></div>{{ end }}
                         </div>
                     </div>
                     <hr />

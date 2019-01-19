@@ -9,5 +9,9 @@ image = "pourpower.jpg"
 alt = "Pour Power"
 link = "https://www.facebook.com/events/2199144843674288"
 draft = false
-address = "102 S Exchange St, Emporia, Kansas 66801"
+location = "Sacred Heart Catholic Church"
+address = "102 S Exchange St"
+city = "Emporia"
+state = "KS"
+zip = "66801"
 +++
