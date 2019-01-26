@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://reese-power.com/event/bingo/</loc>
+    <lastmod>2019-02-20T18:30:00-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://reese-power.com/event/pourpower/</loc>
     <lastmod>2019-01-19T08:42:49-06:00</lastmod>
   </url>
@@ -109,12 +114,12 @@
   
   <url>
     <loc>https://reese-power.com/</loc>
-    <lastmod>2019-01-19T08:42:49-06:00</lastmod>
+    <lastmod>2019-02-20T18:30:00-06:00</lastmod>
   </url>
   
   <url>
     <loc>https://reese-power.com/event/</loc>
-    <lastmod>2019-01-19T08:42:49-06:00</lastmod>
+    <lastmod>2019-02-20T18:30:00-06:00</lastmod>
     <priority>0</priority>
   </url>
   
