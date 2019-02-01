@@ -1,14 +1,14 @@
 +++
 title = "Meal Solutions and Reese Power"
-description = "Order your favorite Wildtree products and support Reese Power!"
+description = "Order online to get your favorite Wildtree Meal Solutions and 20% will go to Reese Power!"
 publishDate = 2019-01-31T08:03:56-06:00
-date = 2019-01-31T08:03:56-06:00
-startDate = 2019-01-31T08:03:56-06:00
-endDate = 2019-01-31T08:03:56-06:00
-image = ""
+date = 2019-02-10T08:03:56-06:00
+image = "mealsolutions.png"
 alt = "Meal Solutions and Reese Power"
-link = "/posts/mealsolutionsevent"
+link = ""
+orderLink = "https://www.wildtree.com/share/party/511555"
 draft = true
 location = ""
 address = ""
+expiryDate = 2019-02-28T08:03:56-06:00
 +++

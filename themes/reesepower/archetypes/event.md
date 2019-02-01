@@ -8,6 +8,7 @@ endDate = {{ .Date }}
 image = ""
 alt = ""
 link = ""
+orderLink = ""
 draft = true
 location = ""
 address = ""
