@@ -90,6 +90,15 @@ nav {
   .nav-icon img {
     max-height: $vertical-rhythm;
   }
+  
+}
+nav.content-nav {
+  position: static;
+  bottom: inherit;
+  div.logo {
+    visibility: visible;
+    max-width: 100px;
+  }
 }
 .nav-fixed {
   position: fixed;
@@ -185,10 +194,17 @@ h1, h2, h3 {
     background-size: 1px 2px;
     background-repeat: repeat-x;
     background-position: 0 95%;
-    text-decoration: none;
     &:hover {
       color: $accent;
     }
+  }
+  .container {
+    padding: 0 0;
+  }
+}
+.event{
+  a {
+    text-decoration: none;
   }
 }
 .highlight {
@@ -412,4 +428,7 @@ footer {
   div, a {
     color: #FFF;
   }
+}
+#content .container {
+  padding: 0 0;
 }
