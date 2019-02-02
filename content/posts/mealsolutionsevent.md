@@ -1,7 +1,7 @@
 ---
 title: "Meal Solutions and Reese Power"
 date: 2019-01-31T08:12:27-06:00
-draft: true
+draft: false
 ---
 
 Thank you for helping Audrey and Isabella raise funds for their student of the Year Campaign and the Leukemia & Lymphoma Society! They are participating in honor of their bestie and my niece, Reese Naylor. 20% of all sales from this [party link](https://www.wildtree.com/share/party/511555) will be donated to their campaign!
